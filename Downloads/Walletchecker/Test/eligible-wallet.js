@@ -25,7 +25,7 @@ const walletRoles = {
   "0xc56fa4508e48db909a1c06298eb632068a0f7cce": "OG",
   "0x79aa7b6881ae6b0afa00c7a76f24c0e711ad542a": "OG",
   "0x40f7275ad8d918d29e095f38de7e28364b84e4e0": "OG",
-  "0xe5c61f468045a9518479b1cc7d4ac985c2848fbe": "OG",
+  "cd /Users/sithu/Downloads/Walletchecker/Test": "OG",
   "0x97f2518fedcbdf32d90ece4d02cd6531d3443ef5": "OG"
 };
 
