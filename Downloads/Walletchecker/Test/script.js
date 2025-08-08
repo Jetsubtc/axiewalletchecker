@@ -69,7 +69,7 @@ function checkWallet() {
         }
         result.style.color = "green";
         
-        // Special effects for OG role
+        // Special effects based on role
         if (role === "OG") {
             // More intense confetti for OG
             confetti({
@@ -77,6 +77,14 @@ function checkWallet() {
                 spread: 90,
                 origin: { y: 0.6 },
                 colors: ['#FFD700', '#FFA500', '#FF8C00'] // Gold colors for OG
+            });
+        } else if (role === "WL") {
+            // Special confetti for WL
+            confetti({
+                particleCount: 150,
+                spread: 80,
+                origin: { y: 0.6 },
+                colors: ['#00BFFF', '#1E90FF', '#4169E1'] // Blue colors for WL
             });
         } else {
             // Regular confetti
